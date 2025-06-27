@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://patriciabolosconfeitaria.netlify.app/sitemap.xml
