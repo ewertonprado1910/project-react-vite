@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom"
 
-import { FileImages } from "../../assets/images"
+import { FileImages } from "../../../assets/images"
 
 import { Container, ImgLogo, Title, LinkHeader, ContainerLinks } from "./style"
 

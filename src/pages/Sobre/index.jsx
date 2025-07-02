@@ -1,7 +1,7 @@
 import "aos/dist/aos.css"
 
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+import Header from "../../pages/Layout/Header/index"
+import Footer from "../../pages/Layout/Footer/index"
 import BackGround from "../../components/BackGround"
 import { FileImages } from "../../assets/images"
 

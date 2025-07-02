@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form"
 
-import { FileImages } from "../../assets/images"
+import { FileImages } from "../../../assets/images"
 
 import { Container, Form, ContainerLinks, LinksFooter, Button } from "./style"
 

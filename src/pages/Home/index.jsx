@@ -8,8 +8,8 @@ import { Navigation } from "swiper/modules"
 import { SlSocialInstagram } from "react-icons/sl"
 import { Helmet } from "react-helmet"
 
-import Header from "../../components/Header"
-import Footer from "../../components/Footer"
+import Header from "../../pages/Layout/Header/index"
+import Footer from "../../pages/Layout/Footer/index"
 import { ComponentButton } from "../../components/Button"
 
 import { FileImages } from "../../assets/images"
