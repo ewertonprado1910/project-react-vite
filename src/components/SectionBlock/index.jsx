@@ -26,8 +26,13 @@ export const SectionBlock = ({
   const whatsLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`
 
   return (
-    <SectionContainer imageLeft={imageLeft} style={{ marginTop: styleMarginTop }}>
-      <SectionImage src={imageSrc} data-aos={aos} style={imageStyle} />
+    <SectionContainer imageLeft={imageLeft}
+      alt="Bolo de chocolate personalizado em Caieiras"
+      style={{ marginTop: styleMarginTop }}>
+      <SectionImage src={imageSrc}
+        alt="Bolo de chocolate personalizado em Caieiras"
+        data-aos={aos}
+        style={imageStyle} />
       <SectionContent>
         <SectionTitle>{title}</SectionTitle>
         <SectionText>{text}</SectionText>

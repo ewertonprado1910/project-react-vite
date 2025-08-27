@@ -10,7 +10,8 @@ const Header = () => {
     return (
         <Container>
             <div>
-                <ImgLogo src={FileImages.background.logo} />
+                <ImgLogo src={FileImages.background.logo}
+                    alt="Background, Bolo de chocolate personalizado em Caieiras" />
                 <Title>Patricia Portela</Title>
             </div>
             <ContainerLinks>

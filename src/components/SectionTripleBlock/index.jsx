@@ -25,7 +25,7 @@ export const SectionTripleBlock = ({
 
     return (
         <TripleContainer data-aos={aos} style={{ marginTop: styleMarginTop }}>
-            <TripleImage src={leftImageSrc} />
+            <TripleImage src={leftImageSrc} alt="Bolo de chocolate personalizado em Caieiras"/>
             <TripleContent>
                 <TripleTitle>{title}</TripleTitle>
                 <TripleText>{text}</TripleText>

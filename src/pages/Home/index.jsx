@@ -68,6 +68,7 @@ const Home = () => {
             mais doce começa aqui...
             <img src={FileImages.background.coracao} />
           </OverlayText>
+
           <LinkButton
             to="https://www.instagram.com/paty.bolos_e_doces/"
             target="_blank"
@@ -130,11 +131,11 @@ const Home = () => {
               <ComponentButton>Saiba mais</ComponentButton>
             </a>
           </div>
-          <img src={FileImages.bolos.bolochocolate} />
+          <img src={FileImages.bolos.bolochocolate} alt="Bolo de chocolate personalizado em Caieiras"/>
         </ContainerBolo>
 
         <ContainerBrigadeiro data-aos="fade-up">
-          <img src={FileImages.doces.brigadeiro} />
+          <img src={FileImages.doces.brigadeiro} alt="Bolos e brigadeiros em Caieiras"/>
           <div data-aos="fade-up">
             <h2>Brigadeiros</h2>
             <p>Brigadeiros deliciosos, trufas, mini éclair, pão de mel com doce de leite, bombons, brownies e muito mais! Perfeitos para um café no meio da tarde para tornar o seu dia, seu evento ou aniversário inesquecível!</p>
